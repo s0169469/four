@@ -1,0 +1,88 @@
+* {
+  font-size: 20px;
+  color: lightcyan;
+  box-sizing: border-box;
+}
+body {
+  background-color: thistle;
+}
+div a {
+  text-decoration: none;
+  color: darkkhaki;
+}
+header {
+  background-color: cadetblue;
+  width: 100%;
+  min-height: 100px;
+  border-bottom: 6px solid grey;
+}
+nav {
+  background-color: thistle;
+  border: 3px solid white;
+}
+nav a {
+  text-decoration: none;
+  color: purple;
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+nav div div {
+  border: 3px solid pink;
+  background-color: red;
+  height: 50px;
+  padding: 5px 0 0 0;
+}
+h2 {
+  background-color: yellow;
+  border: 6px solid green;
+  border-bottom: 0;
+}
+.header-contentt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  min-height: 100px;
+}
+header img {
+  max-width: 120px;
+  max-height: 80px;
+  border: 3px solid orange;
+  border-radius: 35px;
+}
+.header-contentt a {
+  display: inline-block;
+  text-decoration: none;
+  color: brown;
+  font-size: 24px;
+}
+.content-main {
+  background-color: blue;
+  border: 6px solid darkblue;
+}
+.col-md-12.main_box.mt-4.order-sm-1 {
+  padding: 0 0 0 0;
+}
+.col-md-12.main_box.mt-4.order-sm-3 {
+  padding: 0;
+}
+.col-md-12.main_box.mt-4.order-sm-2 {
+  padding: 0;
+}
+table {
+  border: 6px solid black;
+}
+form {
+  font-weight: 500;
+}
+
+footer {
+  background-color: khaki;
+  width: 100%;
+  min-height: 100px;
+  border-top: 6px solid cadetblue;
+  text-align: left;
+  padding: 30px 0;
+}
