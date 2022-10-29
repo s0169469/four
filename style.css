@@ -22,21 +22,21 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: purple;
+  color: black;
   display: block;
   width: 100%;
   height: 50px;
 }
 
 nav div div {
-  border: 3px solid pink;
-  background-color: red;
+  border: 3px solid grey;
+  background-color: cadetblue;
   height: 50px;
   padding: 5px 0 0 0;
 }
 h2 {
-  background-color: yellow;
-  border: 6px solid green;
+  background-color: cadetblue;
+  border: 6px solid grey;
   border-bottom: 0;
 }
 .header-contentt {
@@ -49,7 +49,7 @@ h2 {
 header img {
   max-width: 120px;
   max-height: 80px;
-  border: 3px solid orange;
+  border: 3px solid grey;
   border-radius: 35px;
 }
 .header-contentt a {
@@ -59,8 +59,8 @@ header img {
   font-size: 24px;
 }
 .content-main {
-  background-color: blue;
-  border: 6px solid darkblue;
+  background-color: lightcyan;
+  border: 6px solid grey;
 }
 .col-md-12.main_box.mt-4.order-sm-1 {
   padding: 0 0 0 0;
@@ -82,7 +82,7 @@ footer {
   background-color: khaki;
   width: 100%;
   min-height: 100px;
-  border-top: 6px solid cadetblue;
+  border-top: 6px solid black;
   text-align: left;
   padding: 30px 0;
 }
